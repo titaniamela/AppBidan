@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_tentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Deskripsi"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/konten_tentang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_tentang"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text=" Keunggulan lulusan Program D.IV Kebidanan FK. Unpad
+                adalah pengembangan reseach dan case finding dan rujukan, dalam mengelola asuhan kebidanan dengan melakukan Praktik Klinik Lanjut dan diadakan MK. Internship untuk mendorong mahasiswa untuk melakukan partnership dan continiutas dalam memberikan asuhan keluarga, masing-masing mahasiswa melaksanakan 9 asuhan sejak ANC sampai lansia pada 5 keluarga, selama satu semester ditempatkan di desa, beradaptasi dengan masyarakat, mengaplikasikan ilmu yang didapatkan ke dunia nyata dan berperan sebagai bidan desa dibawah bimbingan bidan setempat, bersama masyarakat dan bidan desa membuat program yang dibutuhkan masyarakat untuk mendukung upaya kesehatan ibu dan anak."
+                android:textSize="12sp"
+                android:background="#d3e3db"/>
+
+        <TextView
+            android:id="@+id/title_landasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/konten_tentang"
+            android:layout_alignLeft="@id/title_tentang"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Landasan Prodi"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/konten_landasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_landasan"
+            android:layout_alignLeft="@id/title_landasan"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/title_visi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Visi"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/visi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_visi"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Pada tahun 2014 - 2020 Visi Program Studi Diploma IV Kebidanan FK UNPAD adalah menghasilkan bidan unggulan untuk kemaslahatan masyarakat, berbudi luhur dan cakap dalam layanan melalui  pendidikan dan penelitian (HUMBLE)."
+                android:textSize="12sp"
+                android:background="#d3e3db"/>
+
+            <TextView
+                android:id="@+id/title_misi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/visi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Misi"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/misi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_misi"
+                android:layout_marginTop="15dp"
+                android:stretchColumns="1,2"
+                android:background="#d3e3db">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="1."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Menyelenggarakan pendidikan melalui kegiatan akademik profesional berbasis metode pembelajaran mutakhir berlandaskan prinsip moral dan etik."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="2."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mengembangkan sarana dan prasarana pendidikan yang mendukung terbentuknya kemampuan belajar mandiri sepanjang hayat, dicapai secara bertahap namun berkesinambungan, sehingga setiap peserta didik dapat mengembangkan potensi diri masing-masing secara optimal."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="3."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Meningkatkan kolaborasi interprofesi, lintas program dan lintas sektor dalam pembinaan, pelatihan  dan kegiatan pelayanan untuk meningkatan kompetensi seluruh sivitas akademika dan memenuhi kebutuhan masyarakat di bidang pelayanan kebidanan."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="4."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Meningkatkan akuntabilitas program studi melalui program penjaminan mutu pendidikan bidan."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="5."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mendorong aktivitas penelitian kolaboratif di tingkat lokal, nasional dan internasional untuk meningkatkan kualitas layanan maupun penyelenggaraan pendidikan."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="6."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mendorong aktivitas penelitian yang memiliki daya ungkit bagi pengembangan mutu pendidikan, pelayanan dan pengabdian yang menjunjung tinggi aspek maslahat bagi masyarakat."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="7."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Menghasilkan lulusan yang terampil, cakap, bertanggung jawab, berbudi luhur dan profesional serta tanggap terhadap faktor sosial budaya dalam memberikan asuhan kebidanan."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="8."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Menghasilkan lulusan yang dapat melakukan penelitian ilmiah terapan dalam pelayanan kebidanan dan pemanfaatan sistem kesehatan di tingkat primer."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+            </TableLayout>
+    </RelativeLayout>
+        </RelativeLayout>
+</ScrollView>

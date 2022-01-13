@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/title_kontak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat_bold"
+            android:justificationMode="inter_word"
+            android:text="Untuk info lebih lanjut"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignLeft="@+id/title_kontak"
+            android:layout_alignRight="@+id/title_kontak"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/title_kontak"
+            android:background="#d3e3db"
+            android:layout_centerHorizontal="true"
+            android:padding="15dp"
+            >
+
+            <TextView
+                android:id="@+id/title_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lokasi : Fakultas Kedokteran"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_lokasi"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Jalan Professor Evckman No.38, Bandung, Jawa Barat"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/title_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lokasi"
+                android:layout_marginTop="15dp"
+                android:text="Email : "
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_email"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="fk@unpad.ac.id"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

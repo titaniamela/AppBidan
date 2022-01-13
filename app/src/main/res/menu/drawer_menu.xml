@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_info"
+            android:icon="@drawable/icon_info"
+            android:title="Info Prodi"/>
+        <item android:id="@+id/nav_dosen"
+            android:icon="@drawable/icon_dosen"
+            android:title="Pengelola dan Dosen"/>
+        <item android:id="@+id/nav_lulusan"
+            android:icon="@drawable/icon_lulus"
+            android:title="Profil Lulusan"/>
+        <item android:id="@+id/nav_kontak"
+            android:icon="@drawable/icon_contact"
+            android:title="Lokasi dan Kontak"/>
+    </group>
+</menu>

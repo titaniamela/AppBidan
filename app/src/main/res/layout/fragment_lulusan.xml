@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/title_lulusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Profil Lulusan Prodi"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/pre_lulusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_lulusan"
+            android:layout_marginTop="15dp"
+            android:background="#d3e3db"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="a. Waktu tunggu lulusan lima tahun terakhir untuk memperoleh pekerjaan yang pertama adalah rata-rata 3 bulan. Data ini diperoleh melalui pendataan IKA BUP kepada alumni. Data yang didapat di analisis, sehingga didapatkan hasil rata-rata waktu tunggu lulusan Diploma Kebidanan FK. Unpad. memperoleh pekerjaan pertama adalah 3 bulan."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="b. Persentase lulusan lima tahun terakhir yang bekerja pada bidang yang sesuai dengan keahliannya = 69,23%. Hasil ini didapat dari data hasil tracer study secara online Bulan Mei 2017 dengan jumlah 13 responden dan juga melalui data hasil wawancara dengan ketua IKA BUP."
+                android:textSize="12sp" />
+            </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

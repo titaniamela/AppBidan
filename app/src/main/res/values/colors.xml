@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xlmns="http://schemas.android.com/apk/res/android">
+    <color name="mainColor">#519259</color>
+    <color name="textColor">#2C272E</color>
+    <color name="hoverColor">#064635</color>
+</resources>
